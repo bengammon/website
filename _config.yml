@@ -1,0 +1,4 @@
+name: Moov2
+encoding: utf-8
+source: ./src
+exclude: ['*.scss']

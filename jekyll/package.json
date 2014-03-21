@@ -1,7 +1,0 @@
-{
-  "name": "moov2-website",
-  "version": "0.0.1",
-  "devDependencies": {
-    "gulp": "~3.5.6"
-  }
-}
