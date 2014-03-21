@@ -1,12 +1,9 @@
 /**
  * -----------------------------------------------------------------------------
- *   $HEADINGS
+ *   $PARAGRAPHS
  * -----------------------------------------------------------------------------
  */
 
-h1 {
-    @include rem(font-size, $font-size-gigantic);
-    @include rem(margin-bottom, $base-spacing * 2);
-
-    font-weight: 900;
+p {
+    @include rem(margin-bottom, $base-spacing);
 }
