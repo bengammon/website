@@ -1,0 +1,45 @@
+@import "vars";
+
+@import "generic/clearfix";
+@import "generic/helpers";
+
+.sg-grid {
+    @extend .cf;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    > li {
+        @include rem(margin-right, $base-spacing);
+        float: left;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.sg-swatch {
+    background-color: white;
+    text-align: center;
+}
+
+.sg-swatch-color,
+.sg-swatch-description {
+    @include rem(margin-bottom, $base-spacing / 2);
+}
+
+.sg-swatch-color {
+    height: 100px;
+    width: 100px
+}
+
+.sg-swatch-description {
+    @include rem(font-size, $font-size-small);
+    @include rem(padding, $base-spacing / 5);
+}
+
+.sg-swatch-color-purple {
+    background-color: $color-purple;
+}

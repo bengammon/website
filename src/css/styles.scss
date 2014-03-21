@@ -12,6 +12,7 @@
  * CLEARFIX.................. Micro clearfix courtesy of Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/
  *
  * MAIN...................... html & body tags.
+ * HEADINGS.................. h1, h2, h3.
  *
  * LISTS..................... Different variations of lists.
  * NAV....................... Navigation component.
@@ -39,6 +40,7 @@
 
 
 @import "base/main";
+@import "base/headings";
 
 
 @import "ui/lists";

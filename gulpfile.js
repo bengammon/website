@@ -19,6 +19,11 @@ gulp.task('styles', function () {
         .pipe(sass({ sourcemap: false }))
         .pipe(prefix('last 1 version', '> 1%', 'ie 8'))
         .pipe(gulp.dest('src/css/'));
+
+    gulp.src('src/css/guide.scss')
+        .pipe(sass({ sourcemap: false }))
+        .pipe(prefix('last 1 version', '> 1%', 'ie 8'))
+        .pipe(gulp.dest('src/css/'));
 });
 
 // set up files that should be watched for changes that trigger a task to run.

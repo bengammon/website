@@ -8,7 +8,7 @@
  * Layout settings.
  */
 
-$base-spacing: 1rem;
+$base-spacing: 1.6rem;
 
 /**
  * Image settings.
@@ -21,6 +21,7 @@ $image-url: "../images/";
  */
 
 $color-purple: #6b00e4;
+$color-text-dark: #524e48;
 
 /**
  * Font settings.
@@ -29,8 +30,10 @@ $color-purple: #6b00e4;
 $font-family-default: 'Lato', Arial, sans-serif;
 $font-size-base: 1.6rem;
 
+$font-size-small: 1.3rem;
 $font-size-medium: 2.8rem;
 $font-size-large: 4.8rem;
+$font-size-gigantic: 6rem;
 
 /**
  * Navigation settings.
