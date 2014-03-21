@@ -6,5 +6,9 @@
     "type": "git",
     "url": "git://github.com/moov2/website"
   },
-  "author": "Moov2"
+  "author": "Moov2",
+  "devDependencies": {
+    "gulp": "~3.5.6",
+    "gulp-connect": "~1.0.9"
+  }
 }
