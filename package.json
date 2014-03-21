@@ -9,6 +9,7 @@
   "author": "Moov2",
   "devDependencies": {
     "gulp": "~3.5.6",
-    "gulp-connect": "~1.0.9"
+    "gulp-connect": "~1.0.9",
+    "gulp-ruby-sass": "~0.4.0"
   }
 }
