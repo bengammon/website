@@ -11,14 +11,10 @@
     margin-right: auto;
 }
 
-.text-medium {
-    @include rem(font-size, $font-size-medium);
-}
+.text-medium { @include rem(font-size, $font-size-medium); }
+.text-large { @include rem(font-size, $font-size-large); }
 
-.text-large {
-    @include rem(font-size, $font-size-large);
-}
-
-.text-light {
-    font-weight: 300;
-}
+.text-light { font-weight: 300; }
+.text-normal { font-weight: 400; }
+.text-bold { font-weight: 700; }
+.text-ultra-bold { font-weight: 900; }

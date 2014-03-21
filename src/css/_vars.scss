@@ -20,15 +20,21 @@ $image-url: "../images/";
  * Colour palettes
  */
 
+$color-blue: #085bc2;
+$color-green: #0ac40c;
+$color-nav: #282828;
 $color-purple: #6b00e4;
 $color-text-dark: #524e48;
+
+$color-barclays: #35b6e9;
+$color-bmj: #1a7bc0;
 
 /**
  * Font settings.
  */
 
 $font-family-default: 'Lato', Arial, sans-serif;
-$font-size-base: 1.6rem;
+$font-size-base: 2rem;
 
 $font-size-small: 1.3rem;
 $font-size-medium: 2.8rem;
@@ -39,7 +45,6 @@ $font-size-gigantic: 6rem;
  * Navigation settings.
  */
 
-$nav-background-color: #282828;
 $nav-font-color: white;
 
 /**

@@ -3,6 +3,10 @@
 @import "generic/clearfix";
 @import "generic/helpers";
 
+.sg-section {
+    @include rem(margin-bottom, $base-spacing * 2);
+}
+
 .sg-grid {
     @extend .cf;
 
@@ -21,7 +25,6 @@
 }
 
 .sg-swatch {
-    background-color: white;
     text-align: center;
 }
 
@@ -31,8 +34,12 @@
 }
 
 .sg-swatch-color {
-    height: 100px;
-    width: 100px
+    height: 80px;
+    width: 80px
+}
+
+.sg-swatch-color-rounded {
+    border-radius: 40px;
 }
 
 .sg-swatch-description {
@@ -42,4 +49,28 @@
 
 .sg-swatch-color-purple {
     background-color: $color-purple;
+}
+
+.sg-swatch-color-purple {
+    background-color: $color-purple;
+}
+
+.sg-swatch-color-nav {
+    background-color: $color-nav;
+}
+
+.sg-swatch-color-barclays {
+    background-color: $color-barclays;
+}
+
+.sg-swatch-color-bmj {
+    background-color: $color-bmj;
+}
+
+.sg-swatch-color-green {
+    background-color: $color-green;
+}
+
+.sg-swatch-color-blue {
+    background-color: $color-blue;
 }

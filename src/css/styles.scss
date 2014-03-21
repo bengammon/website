@@ -13,6 +13,7 @@
  *
  * MAIN...................... html & body tags.
  * HEADINGS.................. h1, h2, h3.
+ * PARAGRAPHS................ p.
  *
  * LISTS..................... Different variations of lists.
  * NAV....................... Navigation component.
@@ -41,6 +42,7 @@
 
 @import "base/main";
 @import "base/headings";
+@import "base/paragraphs";
 
 
 @import "ui/lists";
