@@ -5,6 +5,10 @@
 
 .sg-section {
     @include rem(margin-bottom, $base-spacing * 2);
+
+    > h1:first-child {
+        @include rem(margin-bottom, $base-spacing * 2);
+    }
 }
 
 .sg-grid {
