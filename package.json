@@ -1,0 +1,10 @@
+{
+  "name": "moov2.com",
+  "version": "0.0.0",
+  "description": "Website for Moov2.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/moov2/website"
+  },
+  "author": "Moov2"
+}
