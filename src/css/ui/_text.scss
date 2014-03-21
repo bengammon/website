@@ -11,6 +11,7 @@
     margin-right: auto;
 }
 
+.text-medium { @include rem(font-size, $font-size-small); }
 .text-medium { @include rem(font-size, $font-size-medium); }
 .text-large { @include rem(font-size, $font-size-large); }
 
