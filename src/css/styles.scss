@@ -8,8 +8,10 @@
  * NORMALIZE................. CSS reset courtesy of normalize. http://necolas.github.io/normalize.css/
  *
  * RESET..................... Custom resets that aren't handled already by normalize.
+ * HELPERS................... Collection of useful mixins.
  * CLEARFIX.................. Micro clearfix courtesy of Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/
  *
+ * MAIN...................... html & body tags.
  */
 
 @import "vars";
@@ -24,4 +26,8 @@
 
 
 @import "generic/reset";
+@import "generic/helpers";
 @import "generic/clearfix";
+
+
+@import "base/main";
