@@ -8,6 +8,7 @@
  * 1. Default font size is now 10px.
  */
 html {
+    color: $font-color-default;
     font-family: $font-family-default;
     font-size: 62.5%; /* 1 */
     height: 100%;
