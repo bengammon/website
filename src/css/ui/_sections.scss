@@ -13,12 +13,17 @@
 
 .section-content {
     box-sizing: border-box;
-    padding: 10%;
+    padding: 5% 10%;
     width: 100%;
 }
 
 .section-blue {
     background-color: $color-blue;
+    color: white;
+}
+
+.section-dark {
+    background-color: $color-nav;
     color: white;
 }
 

@@ -1,0 +1,59 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $ICONS
+ * -----------------------------------------------------------------------------
+ */
+
+.icon,
+%icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.icon-close {
+    @extend %icon;
+
+    background-image: url(#{$image-url}icon-close.png);
+    height: 22px;
+    width: 22px;
+}
+
+.icon-facebook {
+    @extend %icon;
+
+    background-image: url(#{$image-url}icon-facebook.png);
+    height: 24px;
+    width: 13px;
+}
+
+.icon-github {
+    @extend %icon;
+
+    background-image: url(#{$image-url}icon-github.png);
+    height: 21px;
+    width: 22px;
+}
+
+.icon-linkedin {
+    @extend %icon;
+
+    background-image: url(#{$image-url}icon-linkedin.png);
+    height: 20px;
+    width: 20px;
+}
+
+.icon-menu {
+    @extend %icon;
+
+    background-image: url(#{$image-url}icon-menu.png);
+    height: 22px;
+    width: 30px;
+}
+
+.icon-twitter {
+    @extend %icon;
+
+    background-image: url(#{$image-url}icon-twitter.png);
+    height: 18px;
+    width: 21px;
+}

@@ -20,6 +20,7 @@
  * SECTION................... Site is broken up into sections.
  * TEXT...................... Different styling of text body.
  * LOGOS..................... Various logos.
+ * ICONS..................... All the icons used on the site.
  *
  * ALIGNMENT................. Classes to help with alignment.
  */
@@ -50,6 +51,7 @@
 @import "ui/sections";
 @import "ui/text";
 @import "ui/logos";
+@import "ui/icons";
 
 
 @import "helpers/alignment";

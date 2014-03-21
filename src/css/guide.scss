@@ -7,8 +7,15 @@
     @include rem(margin-bottom, $base-spacing * 2);
 
     > h1:first-child {
-        @include rem(margin-bottom, $base-spacing * 2);
+        border-bottom: 1px solid $font-color-default;
+        @include rem(padding-bottom, $base-spacing);
     }
+}
+
+.sg-section-dark {
+    @include rem(padding, $base-spacing);
+
+    background-color: $color-nav;
 }
 
 .sg-grid {
@@ -25,6 +32,16 @@
         &:last-child {
             margin-right: 0;
         }
+    }
+}
+
+.sg-table {
+    display: table;
+
+    > li {
+        @include rem(padding-right, $base-spacing);
+        display: table-cell;
+        vertical-align: middle;
     }
 }
 
@@ -77,4 +94,8 @@
 
 .sg-swatch-color-blue {
     background-color: $color-blue;
+}
+
+.sg-swatch-color-black {
+    background-color: $color-black;
 }
