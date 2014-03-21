@@ -1,0 +1,17 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $SECTIONS
+ * -----------------------------------------------------------------------------
+ */
+
+.section {
+    @extend %align-vertical-container;
+    display: block;
+    min-height: 100%;
+    width: 100%;
+}
+
+.section-purple {
+    background-color: $color-purple;
+    color: white;
+}

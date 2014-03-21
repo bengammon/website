@@ -1,0 +1,24 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $TEXT
+ * -----------------------------------------------------------------------------
+ */
+
+.text-island {
+    @include rem(max-width, 40rem);
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-medium {
+    @include rem(font-size, $font-size-medium);
+}
+
+.text-large {
+    @include rem(font-size, $font-size-large);
+}
+
+.text-light {
+    font-weight: 300;
+}

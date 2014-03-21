@@ -1,0 +1,16 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $LOGOS
+ * -----------------------------------------------------------------------------
+ */
+
+.logo {
+    @include rem(margin-bottom, $base-spacing * 2);
+}
+
+.logo-moov2 {
+    background-image: url(#{$image-url}logo-moov2@x2.png);
+    display: inline-block;
+    height: $logo-moov2-height * 2;
+    width: $logo-moov2-width * 2;
+}

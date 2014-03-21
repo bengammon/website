@@ -9,7 +9,8 @@ var connect = require('gulp-connect'),
 // spins up a local web server
 gulp.task('connect', connect.server({
     root: ['src'],
-    host: '*'
+    host: '*',
+    livereload: false
 }));
 
 // compiles Sass into CSS.

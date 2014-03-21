@@ -1,0 +1,19 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $ALIGNMENT
+ * -----------------------------------------------------------------------------
+ */
+
+.align-vertical-container,
+%align-vertical-container {
+    display: table;
+    width: 100%;
+}
+
+.align-vertical-middle {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.align-center { text-align: center; }

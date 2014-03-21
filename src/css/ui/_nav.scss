@@ -1,0 +1,39 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $NAV
+ * -----------------------------------------------------------------------------
+ */
+
+.nav {
+    @extend .cf;
+
+    @include rem(padding, $base-spacing * 2 $base-spacing * 3);
+
+    //background-color: $nav-background-color;
+    color: $nav-font-color;
+    font-weight: 700;
+
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.nav > ul {
+    @extend %list-horizontal;
+
+    float: right;
+
+    >li {
+        &:after {
+            @include rem(padding-left, $base-spacing);
+            content:"\002F";
+        }
+
+        &:last-child:after {
+            display: none;
+            padding-left: 0;
+        }
+    }
+}
+

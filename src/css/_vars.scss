@@ -4,9 +4,44 @@
  * -----------------------------------------------------------------------------
  */
 
+/**
+ * Layout settings.
+ */
+
+$base-spacing: 1rem;
+
+/**
+ * Image settings.
+ */
+
+$image-url: "../images/";
+
+/**
+ * Colour palettes
+ */
+
+$color-purple: #6b00e4;
 
 /**
  * Font settings.
  */
 
+$font-family-default: 'Lato', Arial, sans-serif;
 $font-size-base: 1.6rem;
+
+$font-size-medium: 2.8rem;
+$font-size-large: 4.8rem;
+
+/**
+ * Navigation settings.
+ */
+
+$nav-background-color: #282828;
+$nav-font-color: white;
+
+/**
+ * Logo dimensions.
+ */
+
+$logo-moov2-height: 100px;
+$logo-moov2-width: 233px;
