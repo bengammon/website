@@ -8,9 +8,43 @@
     @include rem(margin-bottom, $base-spacing * 2);
 }
 
+.logo-moov2-small,
+.logo-moov2 {
+    display: inline-block;
+}
+
+.logo-moov2-small {
+    background-image: url(#{$image-url}logo-moov2.png);
+    height: $logo-moov2-height;
+    width: $logo-moov2-width;
+}
+
 .logo-moov2 {
     background-image: url(#{$image-url}logo-moov2@x2.png);
-    display: inline-block;
     height: $logo-moov2-height * 2;
     width: $logo-moov2-width * 2;
+}
+
+.logo-barclays {
+    background-image: url(#{$image-url}logo-barclays.png);
+    height: $logo-barclays-height;
+    width: $logo-barclays-width;
+}
+
+.logo-bmj {
+    background-image: url(#{$image-url}logo-bmj.png);
+    height: $logo-bmj-height;
+    width: $logo-bmj-width;
+}
+
+.logo-hacksoton {
+    background-image: url(#{$image-url}logo-hacksoton.png);
+    height: $logo-hacksoton-height;
+    width: $logo-hacksoton-width;
+}
+
+.logo-hasbro {
+    background-image: url(#{$image-url}logo-hasbro.png);
+    height: $logo-hasbro-height;
+    width: $logo-hasbro-width;
 }

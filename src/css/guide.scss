@@ -36,9 +36,11 @@
 }
 
 .sg-table {
+    @include rem(margin-bottom, $base-spacing);
     display: table;
 
     > li {
+        @include rem(padding-left, $base-spacing);
         @include rem(padding-right, $base-spacing);
         display: table-cell;
         vertical-align: middle;
