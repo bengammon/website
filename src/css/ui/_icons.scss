@@ -4,56 +4,66 @@
  * -----------------------------------------------------------------------------
  */
 
+/**
+ * 1. if used as a link there shouldn't be any underline.
+ */
 .icon,
 %icon {
+    background-position: center center;
     background-repeat: no-repeat;
     display: inline-block;
+    height: $icon-height;
+    text-decoration: none; /* 1 */
+    width: $icon-width;
+}
+
+%icon-dark {
+    background-color: $icon-background-alt;
+    border-radius: $icon-border-radius;
 }
 
 .icon-close {
     @extend %icon;
 
     background-image: url(#{$image-url}icon-close.png);
-    height: 22px;
-    width: 22px;
+    background-size: 22px 22px;
 }
 
 .icon-facebook {
     @extend %icon;
+    @extend %icon-dark;
 
     background-image: url(#{$image-url}icon-facebook.png);
-    height: 24px;
-    width: 13px;
+    background-size: 13px 24px;
 }
 
 .icon-github {
     @extend %icon;
+    @extend %icon-dark;
 
     background-image: url(#{$image-url}icon-github.png);
-    height: 21px;
-    width: 22px;
+    background-size: 22px 21px;
 }
 
 .icon-linkedin {
     @extend %icon;
+    @extend %icon-dark;
 
     background-image: url(#{$image-url}icon-linkedin.png);
-    height: 20px;
-    width: 20px;
+    background-size: 20px 20px;
 }
 
 .icon-menu {
     @extend %icon;
 
     background-image: url(#{$image-url}icon-menu.png);
-    height: 22px;
-    width: 30px;
+    background-size: 30px 22px;
 }
 
 .icon-twitter {
     @extend %icon;
+    @extend %icon-dark;
 
     background-image: url(#{$image-url}icon-twitter.png);
-    height: 18px;
-    width: 21px;
+    background-size: 21px 18px;
 }
