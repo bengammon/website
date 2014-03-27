@@ -38,5 +38,7 @@ Unfortunately Windows isn't officially supported by Jekyll, so there's a few [ad
 *	Open a command prompt and cd to C:\RailsInstaller
 *	gem install jekyll -v 1.4.2
 *	gem install rdiscount
+*	gem install wdm
 
-From research this seems to be the easiest way to install Jekyll on Windows. Pay extra attention when installing the Jekyll gem that you specify version 1.4.2 as, at the time of writing, there are breaking issues with version 1.4.3 on Windows.
+From research this seems to be the easiest way to install Jekyll on Windows. Pay extra attention when installing the Jekyll gem that you specify version 1.4.2 as, at the time of writing, there are breaking issues with version 1.4.3 on Windows. You also need the WDM gem to allow the watch functionality of Jekyll on Windows.
+
