@@ -14,8 +14,17 @@
 
 .sg-section-dark {
     @include rem(padding, $base-spacing);
+    background-color: $color-nav;
+}
+
+.sg-background-alt {
+    @include rem(padding, $base-spacing * 2);
+    @include rem(margin-bottom, $base-spacing);
 
     background-color: $color-nav;
+    border-radius: 3px;
+
+    display: inline-block;
 }
 
 .sg-grid {

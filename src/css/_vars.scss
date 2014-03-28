@@ -23,6 +23,8 @@ $image-url: "../images/";
 $color-black: #151515;
 $color-blue: #085bc2;
 $color-green: #0ac40c;
+$color-green-soft: #08c268;
+$color-green-dark: #00a657;
 $color-nav: #282828;
 $color-purple: #6b00e4;
 
@@ -76,3 +78,9 @@ $icon-height: 42px;
 $icon-width: 42px;
 $icon-background-alt: #444;
 $icon-border-radius: 4px;
+
+/**
+ * Button settings.
+ */
+
+$button-border-radius: 5px;

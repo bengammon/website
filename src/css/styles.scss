@@ -14,6 +14,7 @@
  * MAIN...................... html & body tags.
  * HEADINGS.................. h1, h2, h3.
  * PARAGRAPHS................ p.
+ * LINKS..................... Hyperlinks to other pages / websites.
  *
  * LISTS..................... Different variations of lists.
  * NAV....................... Navigation component.
@@ -21,6 +22,7 @@
  * TEXT...................... Different styling of text body.
  * LOGOS..................... Various logos.
  * ICONS..................... All the icons used on the site.
+ * BUTTONS................... Variations of buttons / links.
  *
  * ALIGNMENT................. Classes to help with alignment.
  */
@@ -44,6 +46,7 @@
 @import "base/main";
 @import "base/headings";
 @import "base/paragraphs";
+@import "base/links";
 
 
 @import "ui/lists";
@@ -52,6 +55,7 @@
 @import "ui/text";
 @import "ui/logos";
 @import "ui/icons";
+@import "ui/buttons";
 
 
 @import "helpers/alignment";

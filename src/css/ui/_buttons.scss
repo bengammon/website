@@ -1,0 +1,30 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $BUTTONS
+ * -----------------------------------------------------------------------------
+ */
+
+%btn {
+    @include rem(padding, $base-spacing);
+    border-radius: $button-border-radius;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-white {
+    @extend %btn;
+
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-green-filled {
+    @extend %btn;
+
+    background-color: $color-green-soft;
+    box-shadow: inset 0 0 7px 0 #027551;
+    color: white;
+}
+
