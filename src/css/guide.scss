@@ -5,11 +5,6 @@
 
 .sg-section {
     @include rem(margin-bottom, $base-spacing * 2);
-
-    > h1:first-child {
-        border-bottom: 1px solid $font-color-default;
-        @include rem(padding-bottom, $base-spacing);
-    }
 }
 
 .sg-section-dark {
@@ -18,8 +13,7 @@
 }
 
 .sg-background-alt {
-    @include rem(padding, $base-spacing * 2);
-    @include rem(margin-bottom, $base-spacing);
+    @include rem(padding, $base-spacing);
 
     background-color: $color-nav;
     border-radius: 3px;
@@ -56,57 +50,14 @@
     }
 }
 
-.sg-swatch {
-    text-align: center;
+.sg-section-title {
+    @include rem(font-size, $font-size-medium);
+    @include rem(margin-bottom, $base-spacing);
+    @include rem(padding-bottom, $base-spacing);
+
+    border-bottom: 1px solid $font-color-default;
 }
 
-.sg-swatch-color,
-.sg-swatch-description {
-    @include rem(margin-bottom, $base-spacing / 2);
-}
-
-.sg-swatch-color {
-    height: 80px;
-    width: 80px
-}
-
-.sg-swatch-color-rounded {
-    border-radius: 40px;
-}
-
-.sg-swatch-description {
-    @include rem(font-size, $font-size-small);
-    @include rem(padding, $base-spacing / 5);
-}
-
-.sg-swatch-color-purple {
-    background-color: $color-purple;
-}
-
-.sg-swatch-color-purple {
-    background-color: $color-purple;
-}
-
-.sg-swatch-color-nav {
-    background-color: $color-nav;
-}
-
-.sg-swatch-color-barclays {
-    background-color: $color-barclays;
-}
-
-.sg-swatch-color-bmj {
-    background-color: $color-bmj;
-}
-
-.sg-swatch-color-green {
-    background-color: $color-green;
-}
-
-.sg-swatch-color-blue {
-    background-color: $color-blue;
-}
-
-.sg-swatch-color-black {
-    background-color: $color-black;
+.sg-checker {
+    background-image: url(#{$image-url}checker.png);
 }

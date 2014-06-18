@@ -7,14 +7,17 @@
 .section {
     @extend %align-vertical-container;
     display: block;
-    min-height: 100%;
     width: 100%;
 }
 
 .section-content {
+    @include rem(padding, $base-spacing * 2);
     box-sizing: border-box;
-    padding: 5% 10%;
     width: 100%;
+}
+
+.section-fullscreen {
+    height: 100%;
 }
 
 .section-blue {

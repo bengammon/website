@@ -20,6 +20,13 @@
     color: white;
 }
 
+.btn-black {
+    @extend %btn;
+
+    border: 2px solid $color-black;
+    color: $color-black;
+}
+
 .btn-green-filled {
     @extend %btn;
 
