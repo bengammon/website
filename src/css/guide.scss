@@ -61,3 +61,28 @@
 .sg-checker {
     background-image: url(#{$image-url}checker.png);
 }
+
+.sg-menu {
+    @extend .cf;
+    list-style: none;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+
+    > li {
+        @include rem(margin-bottom, $base-spacing / 2);
+        float: left;
+        width: 25%;
+    }
+
+    a {
+        @include rem(padding-bottom, $base-spacing / 8);
+        color: inherit;
+
+        &:hover {
+            border-bottom: 1px solid white;
+        }
+    }
+}
