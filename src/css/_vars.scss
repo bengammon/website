@@ -22,14 +22,22 @@ $image-url: "../images/";
 
 $color-black: #151515;
 $color-blue: #085bc2;
-$color-green: #0ac40c;
-$color-green-soft: #08c268;
-$color-green-dark: #00a657;
+$color-blue-soft: #5fa6fe;
+$color-green: #08c208;
+$color-green-soft: #07c267;
+$color-green-dark: #16db0f;
 $color-nav: #282828;
 $color-purple: #6b00e4;
+$color-dark: #101010;
 
 $color-barclays: #35b6e9;
+$color-barclays-alt: #d3e9f1;
+
+$color-hasbro: #1c4788;
+$color-hasbro-alt: #267fe3;
+
 $color-bmj: #1a7bc0;
+$color-bmj-alt: #349eea;
 
 /**
  * Font settings.
@@ -39,36 +47,20 @@ $font-family-default: 'Lato', Arial, sans-serif;
 $font-size-base: 2rem;
 
 $font-size-small: 1.3rem;
-$font-size-medium: 2.8rem;
+$font-size-medium: 3rem;
 $font-size-large: 4.8rem;
 $font-size-gigantic: 6rem;
 
-$font-color-default: #524e48;
+$font-color-default: #313131;
+
+$text-block-line-height: 1.2;
+$text-block-width: 70rem;
 
 /**
  * Navigation settings.
  */
 
 $nav-font-color: white;
-
-/**
- * Logo dimensions.
- */
-
-$logo-moov2-height: 100px;
-$logo-moov2-width: 233px;
-
-$logo-barclays-height: 151px;
-$logo-barclays-width: 143px;
-
-$logo-bmj-height: 104px;
-$logo-bmj-width: 177px;
-
-$logo-hasbro-height: 129px;
-$logo-hasbro-width: 238px;
-
-$logo-hacksoton-height: 236px;
-$logo-hacksoton-width: 693px;
 
 /**
  * Icon settings.
@@ -83,4 +75,27 @@ $icon-border-radius: 4px;
  * Button settings.
  */
 
-$button-border-radius: 5px;
+$button-border-width: 0.12rem;
+$button-border-radius: 0.6rem;
+$button-font-size: 1.8rem;
+
+/**
+ * Avatar settings.
+ */
+
+$avatar-border-thickness: .3rem;
+$avatar-connector-thickness: .4rem;
+$avatar-connector-width: 6rem;
+
+/**
+ * Form settings.
+ */
+
+$form-input-width: 40rem;
+$form-input-border-color: $color-blue-soft;
+$form-input-border-radius: .6rem;
+$form-font-size: 1.6rem;
+$form-placeholder-color: $color-blue-soft;
+$form-textarea-height: $base-spacing * 6;
+
+

@@ -1,0 +1,77 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $SHOWCASE
+ * -----------------------------------------------------------------------------
+ */
+
+.showcase {
+    @include rem(margin-bottom, $base-spacing * 2);
+}
+
+.showcase-background {
+    @include rem(padding, $base-spacing * 6 $base-spacing * 2 $base-spacing * 11);
+
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+
+    &:before {
+        content: "";
+
+        border-color: transparent transparent transparent white;
+        border-style: solid;
+        border-width: 100px 0 0 900px;
+
+        bottom: 0;
+        height: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+
+        z-index: 2;
+    }
+
+    &:after {
+        content: "";
+
+        border-style: solid;
+        border-width: 105px 0 0 930px;
+
+        bottom: 0;
+        height: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+
+        z-index: 1;
+    }
+}
+
+.showcase-background-barclays {
+    background-color: $color-barclays;
+
+    &:after {
+        border-color: transparent transparent transparent $color-barclays-alt;
+    }
+}
+
+.showcase-background-hasbro {
+    background-color: $color-hasbro;
+
+    &:after {
+        border-color: transparent transparent transparent $color-hasbro-alt;
+    }
+}
+
+.showcase-background-bmj {
+    background-color: $color-bmj;
+
+    &:after {
+        border-color: transparent transparent transparent $color-bmj-alt;
+    }
+}
+
+.showcase-details {
+    @include rem(padding, 0 $base-spacing * 1.5);
+}

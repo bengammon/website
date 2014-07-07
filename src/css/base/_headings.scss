@@ -13,8 +13,15 @@ h6 {
     @include rem(margin-bottom, $base-spacing * 1.5);
 }
 
+h1,
+h2 {
+    font-weight: 900;
+}
+
 h1 {
     @include rem(font-size, $font-size-gigantic);
+}
 
-    font-weight: 900;
+h2 {
+    @include rem(font-size, $font-size-medium);
 }

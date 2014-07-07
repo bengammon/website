@@ -1,0 +1,47 @@
+/**
+ * -----------------------------------------------------------------------------
+ *   $FORM
+ * -----------------------------------------------------------------------------
+ */
+
+form {
+    display: inline-block;
+}
+
+label,
+input,
+textarea {
+    @include rem(margin-bottom, $base-spacing);
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input,
+textarea {
+    @include rem(border-radius, $form-input-border-radius);
+    @include rem(font-size, $form-font-size);
+    @include rem(padding, $base-spacing);
+    @include rem(width, $form-input-width);
+
+    background-color: transparent;
+    border: 1px solid $form-input-border-color;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+textarea {
+    @include rem(height, $form-textarea-height);
+}
+
+label {
+    @include rem(margin-bottom, $base-spacing / 2);
+
+    display: none;
+}
+
+::-webkit-input-placeholder { color: $form-placeholder-color; }
+:-moz-placeholder { color: $form-placeholder-color; }
+::-moz-placeholder { color: $form-placeholder-color; }
+:-ms-input-placeholder { color: $form-placeholder-color; }

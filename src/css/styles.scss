@@ -15,6 +15,9 @@
  * HEADINGS.................. h1, h2, h3.
  * PARAGRAPHS................ p.
  * LINKS..................... Hyperlinks to other pages / websites.
+ * IMAGES.................... img.
+ * BLOCKQUOTE................ blockquote & cite.
+ * FORM...................... Form elements.
  *
  * LISTS..................... Different variations of lists.
  * NAV....................... Navigation component.
@@ -23,9 +26,13 @@
  * LOGOS..................... Various logos.
  * ICONS..................... All the icons used on the site.
  * BUTTONS................... Variations of buttons / links.
+ * SHOWCASE.................. Shows off the clients we've worked with.
+ * AVATARS................... Pictures of people.
+ * ISLAND.................... Boxed off content.
  *
  * ALIGNMENT................. Classes to help with alignment.
  * SPACING................... Margin & padding.
+ * DIMENSIONS................ Height & widths.
  */
 
 @import "vars";
@@ -48,6 +55,9 @@
 @import "base/headings";
 @import "base/paragraphs";
 @import "base/links";
+@import "base/images";
+@import "base/blockquote";
+@import "base/form";
 
 
 @import "ui/lists";
@@ -57,7 +67,11 @@
 @import "ui/logos";
 @import "ui/icons";
 @import "ui/buttons";
+@import "ui/showcase";
+@import "ui/avatars";
+@import "ui/island";
 
 
 @import "helpers/alignment";
 @import "helpers/spacing";
+@import "helpers/dimensions";

@@ -4,4 +4,24 @@
  * -----------------------------------------------------------------------------
  */
 
+.margin-bottom-none { @include rem(margin-bottom, 0); }
+.margin-bottom-half { @include rem(margin-bottom, $base-spacing / 2); }
+.margin-bottom { @include rem(margin-bottom, $base-spacing); }
 .margin-bottom-double { @include rem(margin-bottom, $base-spacing * 2); }
+
+.padding { @include rem(padding, $base-spacing); }
+
+.padding-horizontal {
+    @include rem(padding-left, $base-spacing);
+    @include rem(padding-right, $base-spacing);
+}
+
+.padding-vertical {
+    @include rem(padding-bottom, $base-spacing);
+    @include rem(padding-top, $base-spacing);
+}
+
+.padding-vertical-double {
+    @include rem(padding-bottom, $base-spacing * 2);
+    @include rem(padding-top, $base-spacing * 2);
+}

@@ -4,7 +4,7 @@
  * -----------------------------------------------------------------------------
  */
 
-.text-medium { @include rem(font-size, $font-size-small); }
+.text-small { @include rem(font-size, $font-size-small); }
 .text-medium { @include rem(font-size, $font-size-medium); }
 .text-large { @include rem(font-size, $font-size-large); }
 
@@ -15,7 +15,11 @@
 
 .text-block {
     @include rem(margin-bottom, $base-spacing);
-    line-height: 1.2;
+    @include rem(max-width, $text-block-width);
+
+    line-height: $text-block-line-height;
 }
 
 .text-centered { text-align: center; }
+
+
